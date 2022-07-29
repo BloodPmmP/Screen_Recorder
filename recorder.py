@@ -9,7 +9,7 @@ main.resizable(False, False)
 
 def start_rec():
     file = Filename.get()
-    rec.start_recording(str('Recordes\\'+file+'.mp4'), 5)
+    rec.start_recording(str('Records\\'+file+'.mp4'), 5)
 
 def pause_rec():
     rec.pause_recording()
